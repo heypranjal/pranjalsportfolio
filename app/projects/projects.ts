@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Chineko Pasal | An eCommerce Platform in Nepal",
-    slug: "chineko-pasal",
+    slug: "Dual",
     tagline:
       "A dynamic eCommerce platform designed to cater to the diverse needs of Nepali users.",
     overview:
