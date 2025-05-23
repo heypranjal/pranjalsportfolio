@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "pranjaltripathi",
-  url: "https://pranjalsportfolio.vercel.app/",
+  url: "https://pranjalsportfolio.vercel.app",
   ogImage: "https://abhishekg.com.np/og.jpg",
   description: "Portfolio of Pranjal Tripathi",
   links: {
