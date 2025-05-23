@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "pranjaltripathi",
-  url: "https://abhishekg.com.np",
+  url: "https://pranjalsportfolio.vercel.app/",
   ogImage: "https://abhishekg.com.np/og.jpg",
   description: "Portfolio of Pranjal Tripathi",
   links: {
@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/cypherab01",
     github: "https://github.com/heypranjal",
     githubProfile: "https://github.com/heypranjal1",
-    resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
+    resume: "https://www.overleaf.com/read/hcrjrpxrwdzr#7b10c0",
     email: "mailto:2pranjaltripathi@gmail.com",
     githubUsername: "heypranjal",
   },
