@@ -16,13 +16,13 @@ const AboutMePage = () => {
           More than just a title—let’s dive deeper!
         </PageHeaderHeading>
         <PageHeaderDescription>
-         Full-stack developer crafting responsive web with React, Next.js, Tailwind CSS, and React Native. Passionate about building user-focused, scalable solutions and continuously expanding skills to deliver impactful digital experiences.
+        A Full-stack developer crafting responsive web with React, Next.js, Tailwind CSS, and React Native. Passionate about building user-focused, scalable solutions and continuously expanding skills to deliver impactful digital experiences.
 
 
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          With a strong foundation in JavaScript frameworks, I focus on creating
+          With an strong foundation in JavaScript frameworks, I focus on creating
           scalable, efficient, and visually appealing applications.
         </PageHeaderDescription>
 
