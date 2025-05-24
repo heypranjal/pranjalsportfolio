@@ -23,7 +23,7 @@ export async function SiteFooter() {
             <span className="hidden sm:inline"> · </span>
             <span className="block sm:inline">
               Coded in{" "}
-              <span className="font-medium text-foreground">Cursor</span> and
+              <span className="font-medium text-foreground">VS Code</span> and
               deployed with{" "}
               <span className="font-medium text-foreground">Vercel</span>
             </span>
