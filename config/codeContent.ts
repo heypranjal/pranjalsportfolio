@@ -14,7 +14,7 @@ console.log(\`My superpower is: \${superpower()}\`);
   skillsTools: `const mySkills = [
   "HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "NextJS", "Tailwind CSS",
   "shadcn/ui", "NodeJS", "ExpressJS", "MongoDB", "Git", "GitHub", "Vercel", 
-  "Postman", "Linux", "macOS", "Windows", "pnpm", "npm", "yarn", "Docker", "Radix UI"
+  
 ];
 
 const getSkills = () => {
@@ -27,12 +27,12 @@ console.log(getSkills());
 `,
 
   contact: `const contactDetails = {
-    name: "Abhishek Ghimire",
-    email: "aghimire074@gmail.com",
-    mobile: "+977-9847526298",
-    location: "Kathmandu, Nepal",
-    linkedIn: "linkedin.com/in/cypherab01",
-    github: "github.com/cypherab01",
+    name: "Pranjal Tripathi",
+    email: "2pranjaltripathi@gmail.com",
+    mobile: "+91 8726091695",
+    location: "Noida, India",
+    linkedIn: "linkedin.com/in/2pranjal",
+    github: "github.com/heypranjal",
   };
   
 function reachOut() {

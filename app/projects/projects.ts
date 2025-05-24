@@ -1,209 +1,205 @@
 export const projects = [
   {
-    title: "Chineko Pasal | An eCommerce Platform in Nepal",
+    title: "Dual-Channel Appointment System | Hospital Website",
     slug: "Dual",
     tagline:
-      "A dynamic eCommerce platform designed to cater to the diverse needs of Nepali users.",
+      "A modern, responsive hospital website featuring a dual-channel appointment system for seamless patient-doctor interactions and efficient scheduling.",
     overview:
-      "Chineko Pasal is an innovative eCommerce platform that aims to simplify online shopping in Nepal. It offers a seamless user experience with a modern, responsive UI and features tailored to Nepali audiences. The platform integrates efficient search, smooth navigation, and a robust system to ensure a hassle-free shopping experience.",
+      "A responsive hospital website designed with a dual-channel appointment system to streamline bookings and enhance patient experience across online and in-person channels.",
     features: [
-      "Modern and intuitive UI/UX design",
-      "Mobile-responsive and cross-browser compatible",
-      "Secure and optimized login and checkout flows",
-      "Product zoom and image carousel for detailed product views",
-      "Integration with social media sharing and Google Analytics",
+       "Fully responsive design optimized for all devices and screen sizes.",
+  "Dual-channel appointment system for both online and offline booking,and connetcted both of thewm to same databse.",
+  "Easy-to-use appointment booking widget with doctor availability.",
+  "Detailed showcase of hospital departments, doctors, and services.",
+  "Fast loading speeds with SEO-friendly structure for better visibility."
     ],
     techStack: [
       "React.js",
       "Next.js",
       "Tailwind CSS",
-      "Ant Design",
       "Axios",
       "Framer Motion",
-      "Zustand",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      
     ],
     challenges: [
-      "Developing a scalable architecture for high traffic.",
-      "Creating a user-friendly interface optimized for Nepali audiences.",
-      "Ensuring smooth performance on low-bandwidth networks.",
-      "Integrating secure payment and product management features.",
+       "Managing real-time synchronization between online and offline appointment bookings.",
+  "Designing a booking widget that works intuitively for different patient needs.",
+  "Ensuring high performance while handling dynamic data and content."
     ],
     learnings: [
-      "Designed and developed reusable React components.",
-      "Enhanced mobile responsiveness and UX-friendly designs.",
-      "Deepened knowledge of integrating third-party libraries effectively.",
-      "Gained hands-on experience with performance optimization techniques.",
+       "Built a dual-channel system to handle real-time appointment scheduling without conflicts.",
+  "Improved skills in designing accessible UI for healthcare users.",
+  "Learned to optimize load times while displaying dynamic doctor and department data.",
+  "Gained experience integrating APIs and backend logic for complex scheduling workflows."
     ],
     feedback: false,
     links: {
-      live: "https://chinekopasal.com",
+      live: "",
       github: "",
     },
   },
   {
-    title: "Portfolio | Abhishek Ghimire",
+    title: "Hotel Website Design & Development",
     slug: "portfolio",
     tagline:
-      "A dynamic portfolio showcasing my projects, skills, and contributions using the latest web technologies.",
+      "Dynamic hotel website with intuitive UX, modern UI, and powerful backend integration.",
     overview:
-      "My personal portfolio is built to highlight my journey as a developer. It integrates advanced features like profile views tracking, a love count mechanism, and server-side actions for seamless interactivity and performance.",
+      "A responsive, user-centric hotel website combining modern design and seamless booking functionality to enhance guest experience and drive direct reservations.",
     features: [
-      "API to track and display profile views in real-time.",
-      "Love count feature to allow visitors to express appreciation for the work.",
-      "Implemented server actions using the latest Next.js features.",
-      "Dynamic project listing with slug-based routing for detailed pages.",
-      "Mobile-responsive and optimized for all devices.",
-      "Integration with MongoDB using Mongoose for efficient data management.",
+      "Fully responsive design optimized for all devices and screen sizes.",
+      "Intuitive user interface with easy navigation and quick access to information.",
+      "Dynamic room availability and booking system with real-time updates.",
+      "Admin dashboard for managing bookings, room details, and customer interactions.",
+      "SEO-friendly architecture for better visibility and search engine ranking.",
+      "Fast loading times and optimized performance for a smooth user experience.", 
+
     ],
     techStack: [
-      "Next.js",
       "React",
-      "Mongoose",
       "MongoDB",
       "Tailwind CSS",
-      "Radix UI",
-      "TypeScript",
+      "JavaScript",
     ],
     challenges: [
-      "Implementing real-time tracking for profile views efficiently.",
-      "Designing and integrating a scalable database schema with Mongoose.",
-      "Utilizing server actions for seamless and performant interactions.",
-      "Ensuring cross-browser and device compatibility for UI components.",
+        "Synchronizing real-time room availability to avoid booking conflicts.",
+  "Creating a user-friendly booking widget with flexible reservation options.",
+  "Balancing rich media content with fast website load speeds."
     ],
     learnings: [
-      "Deepened knowledge of Next.js server actions and their use cases.",
-      "Gained experience in designing interactive UI components.",
-      "Enhanced understanding of MongoDB operations and ORM with Mongoose.",
-      "Improved ability to optimize performance for web applications.",
+      "Implementing real-time data synchronization for accurate booking management.",
+  "Designing intuitive and accessible UI components like booking widgets.",
+  "Optimizing website performance while maintaining rich visual content.",
+  "Integrating third-party APIs to enhance website functionality and user experience."
     ],
     feedback: true,
     links: {
-      live: "https://abhishekg.com.np",
-      github: "https://github.com/cypherab01/abhishekg.com.np",
-    },
-  },
-  {
-    title: "bitinfonepal.com | Educational Platform for BIT Students",
-    slug: "bitinfonepal",
-    tagline:
-      "A comprehensive platform for BIT students in Nepal to access educational resources, quizzes, and official notices.",
-    overview:
-      "bitinfonepal.com is an educational platform tailored for students pursuing a Bachelor's in Information & Technology under Tribhuvan University (TU). It provides an extensive library of past questions, syllabi, and notes, alongside a quiz platform for entrance exam preparation and filtered official notices to keep students informed.",
-    features: [
-      "Extensive collection of past questions and syllabi.",
-      "Notes and learning resources for BIT courses.",
-      "Quiz platform for entrance exam preparation.",
-      "Filtered notices from the official university website.",
-      "User-friendly and responsive design for seamless accessibility.",
-    ],
-    techStack: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "TypeScript",
-      "Nodemailer",
-      "PostCSS",
-    ],
-    challenges: [
-      "Organizing and presenting vast educational resources efficiently.",
-      "Developing an interactive quiz platform for prospective students.",
-      "Ensuring the platform is responsive and accessible across devices.",
-      "Filtering and updating notices dynamically from the official source.",
-    ],
-    learnings: [
-      "Improved skills in creating dynamic and responsive web applications.",
-      "Gained experience in managing and structuring educational content.",
-      "Enhanced knowledge of TypeScript and advanced React patterns.",
-      "Learned to implement and optimize notification systems for users.",
-    ],
-    feedback: true,
-    links: {
-      live: "https://bitinfonepal.com",
+      live: "",
       github: "",
     },
   },
+  // {
+  //   title: "bitinfonepal.com | Educational Platform for BIT Students",
+  //   slug: "bitinfonepal",
+  //   tagline:
+  //     "A comprehensive platform for BIT students in Nepal to access educational resources, quizzes, and official notices.",
+  //   overview:
+  //     "bitinfonepal.com is an educational platform tailored for students pursuing a Bachelor's in Information & Technology under Tribhuvan University (TU). It provides an extensive library of past questions, syllabi, and notes, alongside a quiz platform for entrance exam preparation and filtered official notices to keep students informed.",
+  //   features: [
+  //     "Extensive collection of past questions and syllabi.",
+  //     "Notes and learning resources for BIT courses.",
+  //     "Quiz platform for entrance exam preparation.",
+  //     "Filtered notices from the official university website.",
+  //     "User-friendly and responsive design for seamless accessibility.",
+  //   ],
+  //   techStack: [
+  //     "Next.js",
+  //     "React",
+  //     "Tailwind CSS",
+  //     "TypeScript",
+  //     "Nodemailer",
+  //     "PostCSS",
+  //   ],
+  //   challenges: [
+  //     "Organizing and presenting vast educational resources efficiently.",
+  //     "Developing an interactive quiz platform for prospective students.",
+  //     "Ensuring the platform is responsive and accessible across devices.",
+  //     "Filtering and updating notices dynamically from the official source.",
+  //   ],
+  //   learnings: [
+  //     "Improved skills in creating dynamic and responsive web applications.",
+  //     "Gained experience in managing and structuring educational content.",
+  //     "Enhanced knowledge of TypeScript and advanced React patterns.",
+  //     "Learned to implement and optimize notification systems for users.",
+  //   ],
+  //   feedback: true,
+  //   links: {
+  //     live: "https://bitinfonepal.com",
+  //     github: "",
+  //   },
+  // },
+  // {
+  //   title: "Real Estate Website",
+  // slug: "Real Estate",
+  // tagline:
+  //   "Dynamic real estate platform with sleek animations, advanced search, and seamless user experience.",
+  // overview:
+  //   "A responsive and visually engaging real estate website featuring interactive property listings, smooth animations, and powerful filtering options to help users find their perfect home.",
+  // features: [
+  //   "Fully responsive design tailored for all devices and screen sizes.",
+  //   "Advanced property search and filtering with real-time results.",
+  //   "Smooth UI animations powered by Framer Motion for enhanced engagement.",
+  //   "Interactive property listings with high-quality images and detailed descriptions.",
+  //   "User-friendly contact and inquiry forms to facilitate buyer-agent communication.",
+  //   "SEO-optimized structure to boost search engine rankings and visibility.",
+  //   "Fast loading times with performance optimizations ensuring smooth browsing."
+  // ],
+  // techStack: [
+  //   "React",
+  //   "Tailwind CSS",
+  //   "JavaScript",
+  //   "Framer Motion"
+  // ],
+  // challenges: [
+  //   "Implementing efficient and responsive search/filter functionality across large datasets.",
+  //   "Ensuring smooth and performant animations without impacting load times.",
+  //   "Designing an intuitive UI that appeals to diverse user needs and devices."
+  // ],
+  // learnings: [
+  //   "Mastered integrating Framer Motion for smooth and interactive UI animations.",
+  //   "Improved handling of complex state management for search and filters in React.",
+  //   "Optimized performance for media-rich websites while maintaining responsiveness.",
+  //   "Enhanced understanding of user behavior in real estate platforms to improve UX design."
+  // ],
+  // feedback: true,
+  // links: {
+  //   live: "",
+  //   github: ""
+  // }
+  // },
   {
-    title: "The Blog | Minimalist Blogging Platform",
-    slug: "the-blog",
-    tagline:
-      "A basic yet powerful blogging platform where admins can post and readers can enjoy content.",
-    overview:
-      "The Blog is a simple, user-friendly blogging platform where admins can easily post new blogs, and readers can access and read them without needing to log in. The platform supports image and file uploads for blog content, making it easy to create engaging posts. Authentication is managed via Auth.js (NextAuth), ensuring secure admin access.",
-    features: [
-      "Admin authentication via NextAuth using Auth.js for secure access.",
-      "Blog posts can be added, edited, or deleted by admins.",
-      "Non-logged-in users can freely read blog posts.",
-      "Image and file uploads integrated with UploadThing for blog media.",
-      "Responsive and modern UI with Tailwind CSS for seamless reading experience.",
-      "Simple and effective blog management for admins.",
-    ],
-    techStack: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Mongoose",
-      "NextAuth (Auth.js)",
-      "UploadThing",
-      "Axios",
-      "Radix UI",
-    ],
-    challenges: [
-      "Implementing secure admin authentication and session management with NextAuth.",
-      "Handling file uploads efficiently using UploadThing.",
-      "Ensuring smooth user experience for both admins and readers.",
-      "Building a simple and effective blog management system for admins.",
-    ],
-    learnings: [
-      "Gained hands-on experience with admin authentication using NextAuth (Auth.js).",
-      "Learned how to integrate file and image uploads in Next.js using UploadThing.",
-      "Improved skills in building a content management system (CMS) for blogs.",
-      "Developed expertise in creating responsive and user-friendly interfaces with Tailwind CSS.",
-    ],
-    feedback: true,
-    links: {
-      live: "https://blog.abhishekg.com.np/",
-      github: "https://github.com/cypherab01/the-blog/",
-    },
-  },
-  {
-    title: "Notebook | A Simple Note-Taking App",
-    slug: "notebook",
-    tagline:
-      "A straightforward CRUD-based note-taking app designed to learn MongoDB, API creation, and authentication practices.",
-    overview:
-      "Notebook is a minimalistic note-taking application built as a learning project to explore MongoDB integration, API creation, and implementing authentication and authorization mechanisms. It provides users with a platform to manage their notes securely and efficiently.",
-    features: [
-      "Create, read, update, and delete notes.",
-      "User authentication and authorization using JWT.",
-      "Secure password hashing with bcryptjs.",
-      "Responsive and clean user interface with Radix UI components.",
-      "Theming support with Next.js themes.",
-    ],
-    techStack: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Mongoose",
-      "JWT",
-      "Bcrypt.js",
-      "Nodemailer",
-    ],
-    challenges: [
-      "Implementing secure authentication and authorization processes.",
-      "Learning MongoDB schema design and integrating it with Mongoose.",
-      "Creating robust and efficient RESTful APIs.",
-      "Ensuring seamless user experience with a responsive UI.",
-    ],
-    learnings: [
-      "Gained hands-on experience with MongoDB and Mongoose for data management.",
-      "Practiced API creation and integration with secure practices.",
-      "Enhanced knowledge of implementing authentication and authorization using JWT.",
-      "Learned to build reusable and responsive UI components.",
-    ],
-    feedback: true,
-    links: {
-      live: "https://notebook.abhishekg.com.np",
-      github: "https://github.com/cypherab01/notebook",
-    },
+  title: "Dual-Channel Booking System | Real Estate Website",
+slug: "DualBooking-RealEstate",
+tagline:
+  "A modern, responsive real estate website featuring a dual-channel booking system for smooth property visit scheduling and streamlined user experience.",
+overview:
+  "A responsive real estate platform designed with a dual-channel (online & offline) booking system, enhancing the user journey through seamless property visit scheduling and real-time availability tracking.",
+features: [
+  "Fully responsive UI optimized for mobile, tablet, and desktop.",
+  "Dual-channel visit scheduling for both online and walk-in bookings, integrated into a unified backend.",
+  "Interactive booking widget showing live availability of agents and properties.",
+  "Detailed property listings with rich media galleries, filters, and location info.",
+  "Optimized for fast loading speeds and structured with SEO best practices.",
+  "Dynamic pages for agents, locations, featured properties, and testimonials."
+],
+techStack: [
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "Axios",
+  "Framer Motion",
+  "MongoDB",
+  "Node.js",
+  "Express.js",
+],
+challenges: [
+  "Ensuring real-time sync between online and walk-in visit bookings without double-booking.",
+  "Creating a dynamic yet easy-to-use property search and filtering system.",
+  "Managing large-scale media content (images, videos) while maintaining performance.",
+],
+learnings: [
+  "Built a dual-mode booking system with integrated calendar and agent syncing.",
+  "Enhanced skills in building intuitive UI for diverse real estate users.",
+  "Learned to handle high-performance rendering of media-heavy content.",
+  "Integrated REST APIs with MongoDB for property, agent, and booking management.",
+],
+feedback: false,
+links: {
+  live: "",   // e.g., https://your-realestate-project.vercel.app
+  github: "", // e.g., https://github.com/yourusername/real-estate-booking
+},
+
   },
 ];

@@ -5,8 +5,6 @@ import {
   PageHeaderHeading,
 } from "@/components/page-header";
 import Pager from "@/components/pager";
-import { HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
-import { HoverCard } from "@/components/ui/hover-card";
 import { code } from "@/config/codeContent";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
@@ -21,7 +19,7 @@ const EducationPage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           Education has always been the cornerstone of my journey into the tech
-          world. Pursuing a Bachelor's in Computer Science (ABES engineering College) in Ghaziabad
+          world. Pursuing a Bachelor's in Computer Science (ABES Engineering College) in Ghaziabad
           has provided me with a solid foundation in computer
           science and software engineering principles.
         </PageHeaderDescription>
@@ -58,22 +56,8 @@ const EducationPage = () => {
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
             I am currently working as a Fullstack Developer at a startup,
             focusing on building responsive user interfaces and enhancing user
-            experiences through modern web technologies
+            experiences through modern web technologies.
           </p>
-
-          <HoverCard>
-            <HoverCardTrigger className="cursor-pointer ">{/* placeholder */}</HoverCardTrigger>
-            <HoverCardContent>
-              <p>
-                <Link
-                  href={siteConfig.bitinfonepal}
-                  className="underline cursor-pointer underline-offset-4"
-                >
-                  {/* bitinfonepal.com */}
-                </Link>
-              </p>
-            </HoverCardContent>
-          </HoverCard>
         </li>
 
         <li className="mb-10 ms-6">

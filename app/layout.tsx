@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   keywords: [
     "Pranjal Tripathi",
     "Pranjal Tripathi ",
-    "abhishekg.com.np",
+    "https://pranjalsportfolio.vercel.app/",
     "Pranjal Tripathi Portfolio",
     "Pranjal Tripathi Projects",
     "Pranjal Tripathi Skills",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Pranjal Tripathi",
-      url: "https://abhishekg.com.np",
+      url: "https://pranjalsportfolio.vercel.app/",
     },
   ],
   creator: "Pranjal Tripathi",

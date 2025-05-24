@@ -5,15 +5,15 @@ export const siteConfig = {
   description: "Portfolio of Pranjal Tripathi",
   links: {
     shadcn: "https://ui.shadcn.com/",
-    telegram: "https://t.me/cypherab01",
-    twitter: "https://x.com/cypherab01",
+    // telegram: "https://t.me/cypherab01",
+    // twitter: "https://x.com/cypherab01",
     github: "https://github.com/heypranjal",
     githubProfile: "https://github.com/heypranjal1",
     resume: "https://www.overleaf.com/read/hcrjrpxrwdzr#7b10c0",
-    email: "mailto:dev2pranjal@gmail.com",
+    email: "mailto:2pranjaltripathi@gmail.com",
     githubUsername: "heypranjal",
   },
-  bitinfonepal: "https://bitinfonepal.com",
+  // bitinfonepal: "https://bitinfonepal.com",
 };
 
 export type SiteConfig = typeof siteConfig;

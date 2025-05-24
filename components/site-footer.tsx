@@ -36,7 +36,7 @@ export async function SiteFooter() {
               rel="noreferrer"
               className="font-medium transition-colors text-primary hover:text-primary/80"
             >
-              Abhishek Ghimire
+              Pranjal Tripathi
             </Link>{" "}
             · Source code available on{" "}
             <Link
