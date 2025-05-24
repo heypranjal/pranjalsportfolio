@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/heypranjal",
     githubProfile: "https://github.com/heypranjal1",
     resume: "https://www.overleaf.com/read/hcrjrpxrwdzr#7b10c0",
-    email: "mailto:2pranjaltripathi@gmail.com",
+    email: "mailto:dev2pranjal@gmail.com",
     githubUsername: "heypranjal",
   },
   bitinfonepal: "https://bitinfonepal.com",
