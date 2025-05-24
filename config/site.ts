@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "pranjaltripathi",
   url: "https://pranjalsportfolio.vercel.app/",
-  ogImage: "https://abhishekg.com.np/og.jpg",
+  ogImage: "https://itmpguawrenuykpfvfbn.supabase.co/storage/v1/object/public/portfolio//pranjalcoverimage.jpeg",
   description: "Portfolio of Pranjal Tripathi",
   links: {
     shadcn: "https://ui.shadcn.com/",
